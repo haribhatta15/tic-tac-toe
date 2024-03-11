@@ -1,5 +1,5 @@
 const board = document.getElementById("board");
-let currentPlayer = "X";
+let currentPlayer = "X"; // Start with player X
 let gameBoard = ["", "", "", "", "", "", "", "", ""];
 
 // Function to handle cell click
@@ -8,7 +8,7 @@ function cellClick(index) {
     gameBoard[index] = currentPlayer;
     renderBoard();
     checkWinner();
-    currentPlayer = currentPlayer === "X" ? "O" : "X";
+    currentPlayer = currentPlayer === "X" ? "O" : "X"; // Switch players
   }
 }
 
