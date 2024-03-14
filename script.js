@@ -56,7 +56,7 @@ function checkWinner() {
   }
 }
 
-// Function to reset the game
+// Function to Reset the game
 function resetGame() {
   gameBoard = ["", "", "", "", "", "", "", "", ""];
   currentPlayer = "X";
