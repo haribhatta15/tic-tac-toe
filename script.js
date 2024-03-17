@@ -12,7 +12,7 @@ function cellClick(index) {
   }
 }
 
-// Function to render the board
+// Function to rerender the board
 function renderBoard() {
   board.innerHTML = "";
   gameBoard.forEach((cell, index) => {
